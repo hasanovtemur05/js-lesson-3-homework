@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <!-- Header -->
+    <div class="header w-full bg-[white] border-b-2 sticky top-0 left-0 h-[50px] md:h-[86px]">
+        <div class=" custom-container m-auto  h-full  flex items-center justify-between">
+            <a href="./index.html"><img src="./images/header-logo.svg" alt="header-logo" class="h-[30px] md:h-auto"></a>
+            <div class="header__left flex gap-[26px]">
+                <ul class="header__list  gap-[26px] items-center hidden md:flex">
+                    <li><a href="#" class="text-[#7C8DB0] hover:text-[#605DEC]">Flights</a></li>
+                    <li><a href="#" class="text-[#7C8DB0] hover:text-[#605DEC]">Hotels</a></li>
+                    <li><a href="#" class="text-[#7C8DB0] hover:text-[#605DEC]">Packages</a></li>
+                    <li><a href="#" class="text-[#7C8DB0] hover:text-[#605DEC]">Packages</a></li>
+                </ul>
+                <a href="./index.html"><button class="header__btn py-[13px] px-[25px] bg-[#605DEC] rounded-[5px] text-[#FAFAFA] hidden md:block">Sign up</button></a>
+                <img src="./images/bars-.svg" alt="" class="w-[20px] md:hidden">
+            </div>
+        </div>
+       </div>
+
+       
+
+       <!-- hero -->
+        <section class="custom-container mt-[30px] grid gap-[20px]">
+            <h1 class="text-[#605DEC] text-[24px]">Passenger information</h1>
+            <p class="text-[#7C8DB0] py-[15px]">Enter the required information for each traveler and be sure that it exactly matches the government-issued ID presented at the airport.</p>
+            <h1 class="text-[#6E7491] text-[20px]">Passenger 1 (Adult)</h1>
+            <!-- left -->
+             <div class="grid gap-[30px] md:flex justify-between md:gap-[160px]">
+            <div class="grid gap-[30px] md:w-[60%]">
+                
+               
+                    <div class="grid grid-cols-1 gap-[10px] md:grid-cols-3 md:gap-[20px]">
+                        <input type="text" placeholder="First name*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="text" placeholder="Middle" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="text" placeholder="Last name*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="text" placeholder="Suffix" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="number" placeholder="Date of birth*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                    </div>
+               
+                    <div class="grid gap-[10px] md:grid-cols-2 md:gap-[20px]">
+                        <input type="email" placeholder="Email address*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="number" placeholder="Phone number*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="tel" placeholder="Redress number" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="tel" placeholder="Known traveller number*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                    </div>
+
+                    <h1 class="text-[#6E7491] text-[24px]">Emergency contact information</h1>
+                    <div class="flex items-center gap-2" >
+                        <input type="checkbox">
+                        <p class="text-[#6E7491]">Same as Passenger 1</p>
+                    </div>
+                    
+                    <div class="grid gap-[10px] md:grid-cols-2 md:gap-[20px]">
+                        <input type="text" placeholder="First name*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="text" placeholder="Last name*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="email" placeholder="Email address*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                        <input type="number" placeholder="Phone number*" class="border-[2px] border-[#A1B0CC] py-[8px] px-[12px] rounded-[5px] outline-none">
+                    </div>
+
+            </div>
+            <!-- right -->
+             <div class="grid gap-[20px] md:w-[40%] h-auto lg:h-[370px]">
+                <div class="border-[1px] border-[#A1B0CC] rounded-[20px] overflow-hidde">
+
+
+                    <div  class="p-[10px] grid gap-[10px] lg:flex justify-between">
+                        <div class="flex gap-[5px]">
+                            <img src="./images/avatar.svg" alt="">
+                            <div>
+                                <p class="text-[#27273F]">Hawaiian Airlines</p>
+                                <p class="text-[#7C8DB0]">FIG4312</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-[#27273F]">16h 45m (+1d)</p>
+                            <p class="text-[#27273F]">7:00 AM - 4:15 PM</p>
+                            <p class="text-[#7C8DB0]">2h 45m in HNL</p>
+                        </div>
+                    </div>
+
+
+                    <div  class="p-[10px] grid gap-[10px] lg:flex justify-between border-t-[1px] border-[#A1B0CC]">
+                        <div class="flex gap-[5px]">
+                            <img src="./images/avatar.svg" alt="">
+                            <div>
+                                <p class="text-[#27273F]">Hawaiian Airlines</p>
+                                <p class="text-[#7C8DB0]">FIG4312</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-[#27273F]">16h 45m (+1d)</p>
+                            <p class="text-[#27273F]">7:00 AM - 4:15 PM</p>
+                            <p class="text-[#7C8DB0]">2h 45m in HNL</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+                <div class="flex flex-col items-end p-[10px] gap-[20px]"> 
+                    <div class="w-[250px] flex justify-between">
+                        <div>
+                            <p class="text-[#27273F]">Subtotal</p>
+                            <p class="text-[#27273F]">Taxes and Fees</p>
+                            <p class="text-[#27273F]">Total</p>
+                        </div>
+                        <div>
+                            <p class="text-[#27273F]">$503</p>
+                            <p class="text-[#27273F]">$121</p>
+                            <p class="text-[#27273F]">$624</p>
+                        </div>
+                    </div>
+                    <button class="w-[138px] h-[48px] rounded-[5px] border-none bg-[#CBD4E6] text-[#7C8DB0]">
+                        Select seats
+                    </button>
+                </div>
+               
+             </div>
+
+            </div>
+        </section>
+        <section class="custom-container  mt-[30px] grid gap-[30px] md:flex md:mt-[50px]">
+            <div class="flex flex-col gap-[30px] md:w-[60%]">
+                <p class="text-[#6E7491]">Bag information</p>
+                <p class="text-[#7C8DB0]">Each passenger is allowed one free carry-on bag and one personal item. First checked bag for each passenger is also free. Second bag check fees are waived for loyalty program members. See the <span class="text-[#605DEC]">full bag policy.</span></p>
+                <div class="flex justify-between w-[250px] md:w-[400px]">
+                    <div>
+                        <p>Passenger 1</p>
+                        <p>First Last</p>
+                    </div>
+                    <div>
+                        <p>Checked bags</p>
+                        <p class="text-[22px] text-[#605DEC]">- 1 +</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="text-[18px] w-[170px] h-[48px] text-[#605DEC] border-2 rounded-[10px]">Save and close</button>
+                    <button class="text-[18px] w-[170px] h-[48px] text-[#7C8DB0] border-2 rounded-[10px] mt-[20px] md:ml-2 bg-[#CBD4E6]">Select seats</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="./images/sumka.svg" alt="">
+            </div>
+
+        </section>
+
+
+   <footer class="custom-container mt-[50px] grid grid-cols-2 gap-[30px] md:grid-cols-3 md:mt-[100px] lg:grid-cols-5">
+    <div class="div grid justify-center">
+        <img src="./images/header-logo.svg" alt="">
+    </div>
+    <div class="div grid justify-center">
+        <p class="text-[#6E7491]">About</p>
+        <p class="text-[#7C8DB0]">About Tripma</p>
+        <p class="text-[#7C8DB0]">How it works</p>
+        <p class="text-[#7C8DB0]">Careers</p>
+        <p class="text-[#7C8DB0]">Press</p>
+        <p class="text-[#7C8DB0]">Blog</p>
+        <p class="text-[#7C8DB0]">Forum</p>
+    </div>
+    <div class="div grid justify-center">
+        <p class="text-[#6E7491]">Partner with us</p>
+        <p class="text-[#7C8DB0]">Partnership programs</p>
+        <p class="text-[#7C8DB0]">Affiliate program</p>
+        <p class="text-[#7C8DB0]">Connectivity partners</p>
+        <p class="text-[#7C8DB0]">Promotions and events</p>
+        <p class="text-[#7C8DB0]">Integrations</p>
+        <p class="text-[#7C8DB0]">Community</p>
+        <p class="text-[#7C8DB0]">Loyalty program</p>
+    </div>
+    <div class="div grid justify-center">
+        <p class="text-[#6E7491]">Support</p>
+        <p class="text-[#7C8DB0]">Help Center</p>
+        <p class="text-[#7C8DB0]">Contact us</p>
+        <p class="text-[#7C8DB0]">Privacy policy</p>
+        <p class="text-[#7C8DB0]">Terms of service</p>
+        <p class="text-[#7C8DB0]">Trust and safety</p>
+        <p class="text-[#7C8DB0]">Accessibility</p>
+    </div>
+    <div class="div grid justify-center">
+        <p class="text-[#6E7491]">Get the app</p>
+        <p class="text-[#7C8DB0]">Tripma for Android</p>
+        <p class="text-[#7C8DB0]">Tripma for iOS</p>
+        <p class="text-[#7C8DB0]">Mobile site</p>
+        <img src="./images/app store.svg" alt="">
+        <img src="./images/google play.svg" alt="">
+    </div>
+</footer>
+<nav class="custom-container border-t-2 mt-[60px] my-[30px] grid gap-[30px] md:flex items-center justify-between">
+<div><img src="./images/navbar.svg" alt=""></div>
+<div><img src="./images/navbar2.svg" alt=""></div>
+</nav>
+
+
+</body>
+</html>
